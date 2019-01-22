@@ -31,19 +31,6 @@ a {
 	text-decoration: none;
 }
 
-button {
-	width: 150px;
-	max-width: 25%;
-	height: 20px;
-	margin-left: .5%;
-	margin-right: .5%;
-	background-color: lightgrey;
-	border-style: none;
-	border-radius: 6px;
-	color: grey;
-	font-weight: 400;
-}
-
 .title {
 	font-family: "Montserrat", sans-serif;
 	font-size: 25px;
@@ -97,4 +84,25 @@ button {
 #icons a:nth-child(3) img {
   width: 21.5px;
   margin-left: 6px; 
+}
+
+
+button {
+	width: 200px;
+/*	max-width: 25%;
+*/	height: 20px;
+	margin: .5% .5%;
+	background-color: rgba(0,0,0,.1);
+	border-style: none;
+	border-radius: 6px;
+	color: grey;
+	font-weight: 400;
+	transition: 1s;
+}
+
+button:hover {
+	background-color: rgba(0,0,0,.125);
+	width: 210px;
+	transition: 1s;
+	cursor: pointer;
 }
